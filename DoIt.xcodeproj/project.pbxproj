@@ -13,6 +13,7 @@
 		21FA6A1F1F5DD4A4005799D9 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21FA6A1D1F5DD4A4005799D9 /* DoIt.xcdatamodeld */; };
 		21FA6A211F5DD4A4005799D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FA6A201F5DD4A4005799D9 /* Assets.xcassets */; };
 		21FA6A241F5DD4A4005799D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FA6A221F5DD4A4005799D9 /* LaunchScreen.storyboard */; };
+		21FA6A2C1F5F2186005799D9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FA6A2B1F5F2186005799D9 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21FA6A201F5DD4A4005799D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21FA6A231F5DD4A4005799D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21FA6A251F5DD4A4005799D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FA6A2B1F5F2186005799D9 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = ../../../../../Applications/Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				21FA6A161F5DD4A4005799D9 /* AppDelegate.swift */,
 				21FA6A181F5DD4A4005799D9 /* ViewController.swift */,
+				21FA6A2B1F5F2186005799D9 /* Task.swift */,
 				21FA6A1A1F5DD4A4005799D9 /* Main.storyboard */,
 				21FA6A201F5DD4A4005799D9 /* Assets.xcassets */,
 				21FA6A221F5DD4A4005799D9 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FA6A2C1F5F2186005799D9 /* Task.swift in Sources */,
 				21FA6A1F1F5DD4A4005799D9 /* DoIt.xcdatamodeld in Sources */,
 				21FA6A191F5DD4A4005799D9 /* ViewController.swift in Sources */,
 				21FA6A171F5DD4A4005799D9 /* AppDelegate.swift in Sources */,
